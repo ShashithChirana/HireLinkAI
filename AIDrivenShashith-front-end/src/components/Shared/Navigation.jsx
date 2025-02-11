@@ -3,10 +3,11 @@ import { Button } from "@/components/ui/button";
 
 function Navigation() {
   return (
-    <nav className="flex py-12 justify-between items-center">
+    <section className="shadow-lg shadow-gray-900 border-white hero">
+    <nav className="flex py-7 justify-between items-center ml-9 mr-9 ">
       <div>
         <Link to={"/"} className="text-4xl font-medium text-underlay-1">
-          HirelyAI
+        HireLinkAI 
         </Link>
       </div>
       <div className="flex justify-center gap-x-8 items-center">
@@ -19,6 +20,7 @@ function Navigation() {
         </div>
       </div>
     </nav>
+    </section>
   );
 }
 
